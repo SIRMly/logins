@@ -1,7 +1,7 @@
 @charset "utf-8";
 .page{position: absolute; left: 0; top: 0; width: 100%; height: 100%; min-height: 600px; min-width: 800px; background: url("../img/login-bg.jpg") no-repeat center right; -webkit-background-size: cover; background-size: cover; }
 .title{height: 70px; line-height: 70px; width: 100%; background-color: rgba(63,108,137,0.59); font-size: 29px; color: #fff; padding-left: 55px;}
-.login-main{width: 350px;  position: absolute; top: 300px; left: 50%; margin-left: 300px; border: 0.1px solid transparent;background-color: rgba(63,108,137,0.59); padding: 25px;}
+.login-main{width: 350px;  position: absolute; top: 31%; right: 11%; border: 0.1px solid transparent;background-color: rgba(63,108,137,0.59); padding: 25px;}
 .login-form{width: 100%;}
 .login-title{font-size: 20px; color: #fff; text-align: center; height: 33px; line-height: 24px; margin-bottom: 10px;}
 .input-controller+.input-controller{margin-top: 25px;}
