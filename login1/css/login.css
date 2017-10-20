@@ -1,0 +1,18 @@
+@charset "utf-8";
+.page{position: absolute; left: 0; top: 0; width: 100%; height: 100%; min-height: 600px; min-width: 800px; background: url("../img/login-bg.jpg") no-repeat center right; -webkit-background-size: cover; background-size: cover; }
+.title{height: 70px; line-height: 70px; width: 100%; background-color: rgba(63,108,137,0.59); font-size: 29px; color: #fff; padding-left: 55px;}
+.login-main{width: 350px;  position: absolute; top: 300px; left: 50%; margin-left: 300px; border: 0.1px solid transparent;background-color: rgba(63,108,137,0.59); padding: 25px;}
+.login-form{width: 100%;}
+.login-title{font-size: 20px; color: #fff; text-align: center; height: 33px; line-height: 24px; margin-bottom: 10px;}
+.input-controller+.input-controller{margin-top: 25px;}
+
+.input-controller,.btn-controller{width: 100%; height: 42px; line-height: 42px; position: relative;}
+.input-controller label{width: 42px;height: 100%; position: absolute; left: 0; top: 0;}
+.input-icon{ display: block; width: 100%; height: 100%; background: url("../img/icon.png") no-repeat; -webkit-background-size: 92% auto; background-size: 92% auto;
+    }
+.user-icon{background-position: center -9%;}
+.password-icon{background-position: center 104%;}
+.input-controls{display: block; width: 100%; height: 100%; background-color: #fff;  line-height: 33px; font-size: 15px; color: #333; padding-left: 42px;}
+.login-btn{display: block; color: #fff; text-align: center; font-size: 16px; background-color: #c20d23; margin-top: 30px;}
+.login-btn:hover{background-color: #b00d21;}
+.error{position: absolute; width: 100%; font-size: 9px; color: #c20d23; left: 0; top: 45px; height: 20px; line-height: 20px;}
